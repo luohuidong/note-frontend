@@ -1,5 +1,5 @@
 # _config.yml
-title: Foam
+title: Frontend Note
 # All the plugins we will be installing now that we won't be using GitHub Pages
 plugins:
   - jekyll-katex # optional
@@ -11,6 +11,6 @@ plugins:
 # The default Jekyll theme we will be using
 theme: jekyll-theme-primer
 # The GitHub repository that we are hosting our foam workspace from
-repository: user/repo
+repository: luohuidong/note-frontend
 # Generate permalinks in format specified in: https://jekyllrb.com/docs/permalinks/#built-in-formats
 permalink: pretty
