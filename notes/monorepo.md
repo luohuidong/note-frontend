@@ -37,8 +37,8 @@ Monorepo 的缺点：
 
 ## 工具
 
-- [PNPM](https://pnpm.io/)
-- [Changesets](https://github.com/changesets/changesets)
+- [pnpm](https://pnpm.io/): 内置了对 Monorepo 的支持。
+- [Changesets](https://github.com/changesets/changesets): Monorepo 场景下的版本与变更日志管理工具
 
 ## 参考资料
 
