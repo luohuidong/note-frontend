@@ -1,0 +1,15 @@
+# 严格模式
+
+严格模式是在 ES5 中增加的，通过 `"use strict"` 来启用，可应用于整个脚本或者单独的函数，但无法应用于块语句中。在 ES6 中模块和类默认是严格模式。
+
+严格模式相对于非严格模式有以下特点：
+
+1. 消除了一些 JavaScript 的静默错误，通过抛出错误来代替。
+2. 修复了一些 JavaScript 引擎难以优化的错误，使得严格模式的代码有时比非严格模式的代码运行更快。
+3. 禁止一些未来 ECMAScript 版本可能会定义的语法。
+
+如果想详细了解严格模式相对于非严格模式的变化，可以参考 [Changes in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode#changes_in_strict_mode)。
+
+## 参考资料
+
+- [MDN: Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
