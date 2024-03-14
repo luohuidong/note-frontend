@@ -197,7 +197,7 @@ console.log(instance.user); // Lucas
 
 这个场景构造函数返回一个原始数值，`new` 操作符返回的是构造函数中的 `this`，所以 `instance.user` 是 `Lucas`。
 
-## 箭头函数中的 this
+### 箭头函数中的 this
 
 箭头函数中的 `this` 是由外层（函数或全局）作用域来决定的。
 

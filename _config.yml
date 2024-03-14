@@ -8,6 +8,7 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-optional-front-matter
+  - jekyll-toc
 # The default Jekyll theme we will be using
 theme: jekyll-theme-primer
 # The GitHub repository that we are hosting our foam workspace from
