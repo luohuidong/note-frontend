@@ -10,13 +10,13 @@
 
 要理解好上面几点，需要对[[strict-mode]]、[[function-explicit-invocation]]、[[function-implicit-call]]有一定的了解。
 
-## this 场景
+## this 例子
 
-为了更加充分理解 this 的指向规则，下面将会列举一些常见的 this 场景。
+为了更加充分理解 this 的指向规则，下面将会列举一些常见的 this 例子。
 
 ### 全局环境中的 this
 
-场景 1：
+例子 1：
 
 ```javascript
 function f1() {
@@ -32,9 +32,9 @@ f1(); // window
 f2(); // undefined
 ```
 
-这个场景涉及规则 1。在非严格模式下，函数内的 `this` 会被绑定到全局对象 window 上。而在严格模式下，函数内的 `this` 会被绑定到 `undefined`。
+这个例子涉及规则 1。在非严格模式下，函数内的 `this` 会被绑定到全局对象 window 上。而在严格模式下，函数内的 `this` 会被绑定到 `undefined`。
 
-场景 2：
+例子 2：
 
 ```javascript
 const foo = {
@@ -49,11 +49,11 @@ const fn1 = foo.fn;
 fn1(); // window, undefined
 ```
 
-这个场景仍然涉及规则 1。虽然 `fn` 是在 `foo` 对象中定义的，但是在 `fn1` 中调用 `fn` 时，实际上是隐式调用 `fn`，因此 `fn` 中的 `this` 会指向全局对象 window。
+这个例子仍然涉及规则 1。虽然 `fn` 是在 `foo` 对象中定义的，但是在 `fn1` 中调用 `fn` 时，实际上是隐式调用 `fn`，因此 `fn` 中的 `this` 会指向全局对象 window。
 
 ### 上下文对象调用中的 this
 
-场景 1：
+例子 1：
 
 ```javascript
 const student = {
@@ -66,7 +66,7 @@ const student = {
 console.log(student.fn() === student); // true
 ```
 
-场景 2：
+例子 2：
 
 ```javascript
 const person = {
@@ -82,9 +82,9 @@ const person = {
 console.log(person.brother.fn()); // Mike
 ```
 
-场景 2 虽然涉及了规则 4，虽然有嵌套对象，但是在 `fn` 是被 `brother` 这个上下文对象所调用的，因此 `fn` 中的 `this` 会被绑定到 `brother` 对象上。
+例子 2 虽然涉及了规则 4，虽然有嵌套对象，但是在 `fn` 是被 `brother` 这个上下文对象所调用的，因此 `fn` 中的 `this` 会被绑定到 `brother` 对象上。
 
-场景 3：
+例子 3：
 
 ```javascript
 const o1 = {
@@ -114,7 +114,7 @@ console.log(o2.fn()); // o1
 console.log(o3.fn()); // undefined
 ```
 
-场景 3 涉及规则 1 和规则 4。第一个输出跟第二个输出比较容易，因为 `fn` 都是被 `o1` 调用，所以输出都是 `o1`。第三个输出，由于 `fn` 是隐式调用，因此 `this` 指向 `window`，`window` 对象没有 `text` 属性，因此输出是 `undefined`。
+例子 3 涉及规则 1 和规则 4。第一个输出跟第二个输出比较容易，因为 `fn` 都是被 `o1` 调用，所以输出都是 `o1`。第三个输出，由于 `fn` 是隐式调用，因此 `this` 指向 `window`，`window` 对象没有 `text` 属性，因此输出是 `undefined`。
 
 ### 通过 call、apply、bind 改变 this 指向
 
@@ -139,7 +139,7 @@ console.log(o3.fn()); // undefined
 }
 ```
 
-场景:
+例子:
 
 ```javascript
 const o1 = {
@@ -167,7 +167,7 @@ console.log(o1.fn.bind(o2)()); // o2
 3. 执行构造函数，将 `this` 绑定到新对象上。
 4. 如果构造函数 return 非原始类型的值，则返回这个值。否则返回新对象。
 
-场景 1：
+例子 1：
 
 ```javascript
 function Foo() {
@@ -180,9 +180,9 @@ const instance = new Foo();
 console.log(instance.user); // undefined
 ```
 
-该场景由于构造函数返回了对象 `o`，因此 `new` 操作符返回的是对象 `o`，而不是构造函数中的 `this`。对象 `o` 是一个空对象，所以 `instance.user` 是 `undefined`。
+该例子由于构造函数返回了对象 `o`，因此 `new` 操作符返回的是对象 `o`，而不是构造函数中的 `this`。对象 `o` 是一个空对象，所以 `instance.user` 是 `undefined`。
 
-场景 2：
+例子 2：
 
 ```javascript
 function Foo() {
@@ -195,13 +195,13 @@ const instance = new Foo();
 console.log(instance.user); // Lucas
 ```
 
-这个场景构造函数返回一个原始数值，`new` 操作符返回的是构造函数中的 `this`，所以 `instance.user` 是 `Lucas`。
+这个例子构造函数返回一个原始数值，`new` 操作符返回的是构造函数中的 `this`，所以 `instance.user` 是 `Lucas`。
 
 ### 箭头函数中的 this
 
 箭头函数中的 `this` 是由外层（函数或全局）作用域来决定的。
 
-场景 1：
+例子 1：
 
 ```javascript
 const foo = {
@@ -217,9 +217,9 @@ foo.fn();
 
 由于 `setTimeout` 的回调函数是在全局作用域中执行的，因此 `this` 指向全局对象 window。
 
-场景 2：
+例子 2：
 
-将场景 1 中的 `setTimeout` 的回调函数改为箭头函数：
+将例子 1 中的 `setTimeout` 的回调函数改为箭头函数：
 
 ```javascript
 const foo = {
