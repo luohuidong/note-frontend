@@ -4,7 +4,10 @@
 
 `call()` 与 `apply()` 这两个方法几乎一样，区别只是在传参有区别（`func.call(this, "eat", "bananas")` vs `func.apply(this, ["eat", "bananas"])`）
 
+与 `call` 和 `apply` 类似的还有 [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind) 方法，不过 `bind` 是返回一个新函数，而 `call` 和 `apply` 是立即调用函数。
+
 ## 参考资料
 
 - [MDN: Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [MDN: Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+- [MDN: Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
