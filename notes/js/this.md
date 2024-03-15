@@ -10,9 +10,9 @@
 
 要理解好上面几点，需要对[[strict-mode]]、[[function-explicit-invocation]]、[[function-implicit-call]]有一定的了解。
 
-## this 例子
+## this 场景
 
-为了更加充分理解 this 的指向规则，下面将会列举一些常见的 this 例子。
+为了更加充分理解 this 的指向规则，下面将会列举一些常见的 this 场景。
 
 ### 全局环境中的 this
 
@@ -212,7 +212,7 @@ const foo = {
   },
 };
 
-foo.fn();
+foo.fn(); // this 指向 window
 ```
 
 由于 `setTimeout` 的回调函数是在全局作用域中执行的，因此 `this` 指向全局对象 window。
@@ -230,10 +230,55 @@ const foo = {
   },
 };
 
-foo.fn();
+foo.fn(); // this 指向 foo
 ```
 
 箭头函数中的 `this` 是由外层作用域决定的，因此 `this` 指向 `foo` 对象。
+
+例子 3：
+
+```javascript
+function foo() {
+  return () => {
+    console.log(this.a);
+  };
+}
+
+const obj1 = {
+  a: 2,
+};
+
+const obj2 = {
+  a: 3,
+};
+
+const bar = foo.call(obj1);
+bar.call(obj2); // 2
+```
+
+箭头函数是由 `foo` 的作用域决定的，当 `foo.call(obj1)` 执行的时候，`foo` 中的 `this` 就被绑定为 `obj1`，这时候 `bar` 拿到的箭头函数即便再执行 `bar.call(obj2)`，`this` 也不会改变。
+
+例子 4：
+
+```javascript
+var a = 123;
+const foo = () => () => {
+  console.log(this.a);
+};
+
+const obj1 = {
+  a: 2,
+};
+
+const obj2 = {
+  a: 3,
+};
+
+const bar = foo.call(obj1);
+bar.call(obj2); /// 123
+```
+
+该例子将 `foo` 改为箭头函数，因此 this 指向全局对象 window，所以输出是 `123`。如果将 `var a = 123` 改为 `const a = 123` 那么得到的结果将是 `undefined`，因为 `const` 声明的变量不会挂在到全局对象上。
 
 ## 参考资料
 
