@@ -12,7 +12,7 @@ git clone --depth 1 https://github.com/jackyzha0/quartz.git
 echo "copy notes to quartz"
 rm -rf quartz/content
 mkdir quartz/content
-cp -r notes/* quartz/content
+cp -R notes/* quartz/content
 
 echo "modify quartz config"
 node ./replaceQuartzConfig.cjs

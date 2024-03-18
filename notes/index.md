@@ -1,3 +1,6 @@
+---
+title: Frontend Notes
+---
 
 ## JavaScript
 
@@ -23,4 +26,3 @@
 ## 其他
 
 - 浏览器工作原理
-
