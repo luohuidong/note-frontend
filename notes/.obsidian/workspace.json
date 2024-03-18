@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "022f5d3cd85b2244",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ccbd2a81187a7b95",
+            "id": "95aed65384f840e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/event/事件处理程序.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,11 +80,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "4041a1e622ce6bd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          },
+          {
+            "id": "b81e4b666d14d5f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "992c81550825d75a",
+        "type": "tabs",
+        "children": [
+          {
             "id": "762708fadec33919",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,28 +129,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "b81e4b666d14d5f6",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "4041a1e622ce6bd8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
             }
           }
         ]
@@ -149,10 +151,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "022f5d3cd85b2244",
+  "active": "95aed65384f840e6",
   "lastOpenFiles": [
-    "index.md",
+    "node/Nest.md",
+    "js/闭包.md",
+    "js/web-components/custom element.md",
+    "js/web-components/Shadow Dom.md",
+    "js/web-components/Web Component.md",
+    "js/web-components/Shadow DOM JavaScript 和 CSS 的隔离.md",
+    "js/web-components/Shadow DOM Element.shadowRoot 以及 mode 选项.md",
+    "js/web-components/Shadow DOM 创建.md",
+    "js/web-components/Shadow DOM 简介.md",
+    "js/web-components/Untitled.md",
+    "js/web-components/custom element 生命周期回调.md",
+    "js/web-components/custom element 注册与使用.md",
+    "js/web-components/custom element 响应属性变化.md",
+    "js/web-components/custom element 创建.md",
     "js/event/事件处理程序.md",
+    "browser/执行上下文.md",
+    "browser/浏览器工作原理.md",
+    "index.md",
     "js/event/JS 事件.md",
     "performance/数据压缩.md",
     "performance/网络层面优化.md",
@@ -161,22 +179,6 @@
     "software-engineering/工程化基础.md",
     "software-engineering/Monorepos.md",
     "software-engineering/构建 npm CLI 工具.md",
-    "前端知识体系.md",
-    "性能优化.md",
-    "JavaScript.md",
-    "Vue.md",
-    "工程化.md",
-    "software-engineering/Semantic Versioning（语意化版本）.md",
-    "js/web-components/Shadow DOM 创建.md",
-    "js/web-components/Web Component.md",
-    "node/Nest.md",
-    "js/this.md",
-    "notes/this.md",
-    "js/函数隐式调用.md",
-    "js/函数显式调用.md",
-    "js/严格模式.md",
-    "software-engineering/webpack/Webpack.md",
-    "js/执行上下文.md",
     "software-engineering/webpack",
     "software-engineering/babel",
     "工程化",
