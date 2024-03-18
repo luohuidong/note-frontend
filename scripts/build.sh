@@ -5,9 +5,9 @@ QUARTZ=$ROOT/quartz
 echo "ROOT: $ROOT"
 echo "QUARTZ: $QUARTZ"
 
-# echo "cloning quartz"
-# rm -rf quartz
-# git clone --depth 1 https://github.com/jackyzha0/quartz.git
+echo "cloning quartz"
+rm -rf quartz
+git clone --depth 1 https://github.com/jackyzha0/quartz.git
 
 echo "copy notes to quartz"
 rm -rf quartz/content
