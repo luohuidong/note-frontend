@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "3ba06d802c6aadeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "76ccbe1bc1198a2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "022f5d3cd85b2244",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ccbd2a81187a7b95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "js/event/事件处理程序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "284870db65cf082f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2babb0205a266a5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9daafa6ad49ea747",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12fda434429a6f2c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "27cc387713bbd7e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bc439059b61c938b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e1f1d5533f05bfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "762708fadec33919",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "303a2eacfb017f3b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b81e4b666d14d5f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4041a1e622ce6bd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "022f5d3cd85b2244",
+  "lastOpenFiles": [
+    "index.md",
+    "js/event/事件处理程序.md",
+    "js/event/JS 事件.md",
+    "performance/数据压缩.md",
+    "performance/网络层面优化.md",
+    "performance/requestAnimationFrame.md",
+    "performance/性能优化知识体系.md",
+    "software-engineering/工程化基础.md",
+    "software-engineering/Monorepos.md",
+    "software-engineering/构建 npm CLI 工具.md",
+    "前端知识体系.md",
+    "性能优化.md",
+    "JavaScript.md",
+    "Vue.md",
+    "工程化.md",
+    "software-engineering/Semantic Versioning（语意化版本）.md",
+    "js/web-components/Shadow DOM 创建.md",
+    "js/web-components/Web Component.md",
+    "node/Nest.md",
+    "js/this.md",
+    "notes/this.md",
+    "js/函数隐式调用.md",
+    "js/函数显式调用.md",
+    "js/严格模式.md",
+    "software-engineering/webpack/Webpack.md",
+    "js/执行上下文.md",
+    "software-engineering/webpack",
+    "software-engineering/babel",
+    "工程化",
+    "js/event",
+    "js/web-components",
+    "performance",
+    "js/event",
+    "js/web-components",
+    "index",
+    "node"
+  ]
+}

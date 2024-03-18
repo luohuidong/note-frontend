@@ -1,4 +1,3 @@
-# Monorepos
 
 Monorepos 目前在前端开发中非常热门。Monorepos 是一个包含多个独立项目的仓库，这些项目之间有明确的关联关系。如果这些项目之间没有明确的关联关系但是存放在同一个仓库的话，这个仓库并不能称为 Monorepos，这只不过是一个大仓库而已。而与 Monorepos 对应的是 Polyrepo，Polyrepo 将不同项目或者不同的模块存储在多个独立的仓库中。
 
