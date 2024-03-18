@@ -6,23 +6,27 @@ echo "ROOT: $ROOT"
 echo "QUARTZ: $QUARTZ"
 
 if [ -d "quartz" ]; then
+    echo "quartz exists"
     cd $QUARTZ
     git pull
 else
+    echo "cloning quartz"
     cd $ROOT
-    git clone https://github.com/jackyzha0/quartz.git
+    git clone --depth 1 https://github.com/jackyzha0/quartz.git
 fi
 
 cd $ROOT
 
-# copy notes to quartz
+echo "copy notes to quartz"
 rm -rf quartz/content
 mkdir quartz/content
 cp -r notes/* quartz/content
 
-# modify quartz config 
+echo "modify quartz config"
 node ./replaceQuartzConfig.cjs
 
-cd quartz
+cd $QUARTZ
+
+echo "installing dependencies and building quartz"
 npm i 
 npx quartz build
