@@ -13,6 +13,8 @@ else
     git clone https://github.com/jackyzha0/quartz.git
 fi
 
+cd $ROOT
+
 # copy notes to quartz
 rm -rf quartz/content
 mkdir quartz/content
