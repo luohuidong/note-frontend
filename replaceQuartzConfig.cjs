@@ -33,8 +33,6 @@ traverse(ast, {
                     }
                 }
             })
-
-            console.log('path.node', path.node.key.name)
             path.skip()
         }
     }
