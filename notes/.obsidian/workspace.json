@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "浏览器/栈空间和堆空间：数据是如何存储的？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46b11a90b371f7dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "浏览器/栈空间和堆空间：数据是如何存储的？.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "浏览器/栈空间和堆空间：数据是如何存储的？.md"
               }
             }
           },
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "浏览器/栈空间和堆空间：数据是如何存储的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "浏览器/栈空间和堆空间：数据是如何存储的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,11 +165,29 @@
   },
   "active": "95aed65384f840e6",
   "lastOpenFiles": [
-    "node/Nest.md",
-    "js/闭包.md",
+    "assets/Pasted image 20240319164218.png",
+    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
+    "浏览器/浏览器中的 JavaScript 执行机制.md",
+    "js/函数隐式调用.md",
+    "js/web-components/Web Component.md",
+    "assets/Pasted image 20240319150330.png",
     "js/web-components/custom element.md",
     "js/web-components/Shadow Dom.md",
-    "js/web-components/Web Component.md",
+    "js/闭包.md",
+    "js/函数显式调用.md",
+    "js/作用域.md",
+    "js/严格模式.md",
+    "浏览器/浏览器工作原理.md",
+    "Pasted image 20240319150033.png",
+    "assets",
+    "Pasted image 20240319150313.png",
+    "浏览器/V8工作原理.md",
+    "index.md",
+    "软件工程/工程化基础.md",
+    "js/this.md",
+    "js/执行上下文.md",
+    "browser/执行上下文.md",
+    "node/Nest.md",
     "js/web-components/Shadow DOM JavaScript 和 CSS 的隔离.md",
     "js/web-components/Shadow DOM Element.shadowRoot 以及 mode 选项.md",
     "js/web-components/Shadow DOM 创建.md",
@@ -165,29 +195,14 @@
     "js/web-components/Untitled.md",
     "js/web-components/custom element 生命周期回调.md",
     "js/web-components/custom element 注册与使用.md",
-    "js/web-components/custom element 响应属性变化.md",
-    "js/web-components/custom element 创建.md",
-    "js/event/事件处理程序.md",
-    "browser/执行上下文.md",
-    "browser/浏览器工作原理.md",
-    "index.md",
-    "js/event/JS 事件.md",
-    "performance/数据压缩.md",
-    "performance/网络层面优化.md",
-    "performance/requestAnimationFrame.md",
-    "performance/性能优化知识体系.md",
-    "software-engineering/工程化基础.md",
-    "software-engineering/Monorepos.md",
-    "software-engineering/构建 npm CLI 工具.md",
-    "software-engineering/webpack",
-    "software-engineering/babel",
+    "软件工程/webpack",
+    "软件工程/babel",
     "工程化",
-    "js/event",
+    "js/事件",
     "js/web-components",
-    "performance",
-    "js/event",
+    "性能优化",
+    "js/事件",
     "js/web-components",
-    "index",
-    "node"
+    "index"
   ]
 }
