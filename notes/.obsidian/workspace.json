@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4e7fd1a10c0688c1",
+        "id": "ade4168bf52371b3",
         "type": "tabs",
         "children": [
           {
-            "id": "37992a8a60da108e",
+            "id": "a14caffbd1cb1488",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "浏览器/变量提升.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "浏览器/变量提升.md"
-              }
+              "state": {}
             }
           },
           {
@@ -112,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "浏览器/变量提升.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "浏览器/变量提升.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,15 +143,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37992a8a60da108e",
+  "active": "a14caffbd1cb1488",
   "lastOpenFiles": [
-    "浏览器/变量提升.md",
-    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
-    "浏览器/块级作用域：var缺陷以及为什么要引入let和const？.md",
     "浏览器/浏览器工作原理.md",
-    "浏览器/调用栈：为什么JavaScript代码会出现栈溢出？.md",
+    "浏览器/通过调用栈管理执行上下文.md",
+    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
+    "浏览器/从执行上下文的角度来看变量提升.md",
+    "浏览器/块级作用域、let 与 const.md",
     "浏览器/作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择？.md",
     "index.md",
+    "Pasted image 20240320132351.png",
     "性能优化/requestAnimationFrame.md",
     "assets/Pasted image 20240320003918.png",
     "js/this.md",
@@ -184,7 +177,6 @@
     "js/web-components/Shadow DOM JavaScript 和 CSS 的隔离.md",
     "js/web-components/Shadow DOM Element.shadowRoot 以及 mode 选项.md",
     "js/web-components/Shadow DOM 创建.md",
-    "js/web-components/Shadow DOM 简介.md",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
