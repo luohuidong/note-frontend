@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1910ed3772767b",
+        "id": "7cdab42d1d0328ca",
         "type": "tabs",
         "children": [
           {
-            "id": "41c6ff93ee8685ce",
+            "id": "203b3daf7bd3ab92",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -80,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "浏览器/index.md"
+              }
             }
           },
           {
@@ -106,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "浏览器/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "浏览器/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,21 +147,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41c6ff93ee8685ce",
+  "active": "9daafa6ad49ea747",
   "lastOpenFiles": [
+    "算法与数据结构/归并算法.md",
+    "浏览器/index.md",
+    "算法与数据结构/index.md",
     "index.md",
+    "算法与数据结构",
+    "浏览器/通过调用栈管理执行上下文.md",
+    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
+    "浏览器/块级作用域、let 与 const.md",
+    "浏览器/作用域与作用域链.md",
+    "浏览器/Untitled.md",
+    "js/闭包.md",
+    "浏览器/从执行上下文的角度来看变量提升.md",
+    "js/this.md",
     "Untitled.md",
     "assets",
-    "浏览器/作用域与作用域链.md",
     "Pasted image 20240321151755.png",
-    "浏览器/块级作用域、let 与 const.md",
-    "浏览器/浏览器工作原理.md",
-    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
-    "浏览器/从执行上下文的角度来看变量提升.md",
-    "浏览器/通过调用栈管理执行上下文.md",
     "Pasted image 20240321155543.png",
     "Untitled.canvas",
-    "js/this.md",
     "js/作用域.md",
     "Pasted image 20240320225920.png",
     "Pasted image 20240320231457.png",
@@ -171,7 +180,6 @@
     "assets/Pasted image 20240319150330.png",
     "js/web-components/custom element.md",
     "js/web-components/Shadow Dom.md",
-    "js/闭包.md",
     "js/函数显式调用.md",
     "js/严格模式.md",
     "Pasted image 20240319150033.png",
@@ -181,15 +189,12 @@
     "js/执行上下文.md",
     "browser/执行上下文.md",
     "node/Nest.md",
-    "js/web-components/Shadow DOM JavaScript 和 CSS 的隔离.md",
-    "js/web-components/Shadow DOM Element.shadowRoot 以及 mode 选项.md",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
     "js/事件",
     "js/web-components",
     "性能优化",
-    "js/事件",
-    "js/web-components"
+    "js/事件"
   ]
 }
