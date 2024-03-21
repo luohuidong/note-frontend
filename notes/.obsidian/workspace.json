@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cfbbf85c263733a1",
+        "id": "fc1910ed3772767b",
         "type": "tabs",
         "children": [
           {
-            "id": "75a1e6c585fb30de",
+            "id": "41c6ff93ee8685ce",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "作用域",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,22 +143,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75a1e6c585fb30de",
+  "active": "41c6ff93ee8685ce",
   "lastOpenFiles": [
+    "index.md",
+    "Untitled.md",
+    "assets",
+    "浏览器/作用域与作用域链.md",
+    "Pasted image 20240321151755.png",
     "浏览器/块级作用域、let 与 const.md",
+    "浏览器/浏览器工作原理.md",
+    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
+    "浏览器/从执行上下文的角度来看变量提升.md",
+    "浏览器/通过调用栈管理执行上下文.md",
+    "Pasted image 20240321155543.png",
+    "Untitled.canvas",
+    "js/this.md",
+    "js/作用域.md",
     "Pasted image 20240320225920.png",
     "Pasted image 20240320231457.png",
     "Pasted image 20240320230608.png",
-    "浏览器/从执行上下文的角度来看变量提升.md",
-    "浏览器/浏览器工作原理.md",
-    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
-    "浏览器/通过调用栈管理执行上下文.md",
-    "浏览器/作用域链和闭包：代码中出现相同的变量，JavaScript引擎如何选择？.md",
-    "index.md",
     "Pasted image 20240320132351.png",
     "性能优化/requestAnimationFrame.md",
     "assets/Pasted image 20240320003918.png",
-    "js/this.md",
     "assets/Pasted image 20240319164218.png",
     "js/函数隐式调用.md",
     "js/web-components/Web Component.md",
@@ -167,11 +173,9 @@
     "js/web-components/Shadow Dom.md",
     "js/闭包.md",
     "js/函数显式调用.md",
-    "js/作用域.md",
     "js/严格模式.md",
     "Pasted image 20240319150033.png",
     "assets",
-    "Pasted image 20240319150313.png",
     "浏览器/V8工作原理.md",
     "软件工程/工程化基础.md",
     "js/执行上下文.md",
@@ -179,7 +183,6 @@
     "node/Nest.md",
     "js/web-components/Shadow DOM JavaScript 和 CSS 的隔离.md",
     "js/web-components/Shadow DOM Element.shadowRoot 以及 mode 选项.md",
-    "js/web-components/Shadow DOM 创建.md",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
@@ -187,7 +190,6 @@
     "js/web-components",
     "性能优化",
     "js/事件",
-    "js/web-components",
-    "index"
+    "js/web-components"
   ]
 }
