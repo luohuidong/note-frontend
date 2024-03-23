@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7cdab42d1d0328ca",
+        "id": "7292f55df183dddf",
         "type": "tabs",
         "children": [
           {
-            "id": "203b3daf7bd3ab92",
+            "id": "a8009503c8f1fd23",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "浏览器/index.md"
+                "file": "算法与数据结构/归并算法.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "浏览器/index.md",
+                "file": "算法与数据结构/归并算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "浏览器/index.md",
+                "file": "算法与数据结构/归并算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +150,10 @@
   "active": "9daafa6ad49ea747",
   "lastOpenFiles": [
     "算法与数据结构/归并算法.md",
-    "浏览器/index.md",
     "算法与数据结构/index.md",
     "index.md",
+    "浏览器/index.md",
+    "assets/Pasted image 20240323133532.png",
     "算法与数据结构",
     "浏览器/通过调用栈管理执行上下文.md",
     "浏览器/栈空间和堆空间：数据是如何存储的？.md",
@@ -182,13 +183,11 @@
     "js/web-components/Shadow Dom.md",
     "js/函数显式调用.md",
     "js/严格模式.md",
-    "Pasted image 20240319150033.png",
     "assets",
     "浏览器/V8工作原理.md",
     "软件工程/工程化基础.md",
     "js/执行上下文.md",
     "browser/执行上下文.md",
-    "node/Nest.md",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
