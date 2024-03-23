@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7292f55df183dddf",
+        "id": "1b1b65faaa4a676f",
         "type": "tabs",
         "children": [
           {
-            "id": "a8009503c8f1fd23",
+            "id": "267b3f3f04b25df1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -80,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "算法与数据结构/归并算法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -108,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法与数据结构/归并算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法与数据结构/归并算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,10 +143,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9daafa6ad49ea747",
+  "active": "267b3f3f04b25df1",
   "lastOpenFiles": [
     "算法与数据结构/归并算法.md",
     "算法与数据结构/index.md",
+    "算法与数据结构/链表.md",
+    "算法与数据结构/动态规划.md",
+    "算法与数据结构/递推.md",
+    "算法与数据结构/二分搜索.md",
+    "算法与数据结构/栈.md",
+    "算法与数据结构/数组.md",
+    "算法与数据结构/插入排序.md",
+    "算法与数据结构/冒泡排序.md",
+    "算法与数据结构/选择排序.md",
     "index.md",
     "浏览器/index.md",
     "assets/Pasted image 20240323133532.png",
@@ -179,15 +184,7 @@
     "js/函数隐式调用.md",
     "js/web-components/Web Component.md",
     "assets/Pasted image 20240319150330.png",
-    "js/web-components/custom element.md",
-    "js/web-components/Shadow Dom.md",
-    "js/函数显式调用.md",
-    "js/严格模式.md",
     "assets",
-    "浏览器/V8工作原理.md",
-    "软件工程/工程化基础.md",
-    "js/执行上下文.md",
-    "browser/执行上下文.md",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
