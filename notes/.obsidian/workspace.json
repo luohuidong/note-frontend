@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ebe3e33ebd3b9b57",
+        "id": "6ffbff9559b490c2",
         "type": "tabs",
         "children": [
           {
-            "id": "292464b82410b997",
+            "id": "4432acfc0d7d7e1c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -112,7 +112,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -143,18 +143,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "292464b82410b997",
+  "active": "4432acfc0d7d7e1c",
   "lastOpenFiles": [
-    "算法与数据结构/快速排序.md",
     "算法与数据结构/index.md",
+    "算法与数据结构/快速排序.md",
+    "index.md",
+    "软件工程/webpack/Webpack.md",
+    "软件工程/webpack/Plugin.md",
+    "算法与数据结构/冒泡排序.md",
+    "算法与数据结构/二分搜索.md",
+    "算法与数据结构/递归.md",
+    "性能优化/性能优化知识体系.md",
+    "软件工程/index.md",
+    "软件工程/monorepos.md",
+    "js/web-components/Web Component.md",
     "js/函数隐式调用.md",
     "js/闭包.md",
-    "index.md",
-    "软件工程/index.md",
     "软件工程/构建 npm CLI 工具.md",
     "软件工程/工程化基础.md",
     "软件工程/Semantic Versioning（语意化版本）.md",
-    "软件工程/monorepos.md",
     "js/this.md",
     "算法与数据结构/栈.md",
     "算法与数据结构/数组.md",
@@ -162,17 +169,10 @@
     "算法与数据结构/链表.md",
     "算法与数据结构/动态规划.md",
     "算法与数据结构/递推.md",
-    "算法与数据结构/二分搜索.md",
     "算法与数据结构/插入排序.md",
-    "算法与数据结构/冒泡排序.md",
     "算法与数据结构/选择排序.md",
-    "浏览器/index.md",
     "assets/Pasted image 20240323133532.png",
     "算法与数据结构",
-    "浏览器/通过调用栈管理执行上下文.md",
-    "浏览器/栈空间和堆空间：数据是如何存储的？.md",
-    "浏览器/块级作用域、let 与 const.md",
-    "浏览器/作用域与作用域链.md",
     "assets",
     "Pasted image 20240321151755.png",
     "Pasted image 20240321155543.png",
