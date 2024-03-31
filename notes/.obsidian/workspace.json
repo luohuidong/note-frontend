@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ffbff9559b490c2",
+        "id": "a99aa4d474ce032b",
         "type": "tabs",
         "children": [
           {
-            "id": "4432acfc0d7d7e1c",
+            "id": "9014f72fb81ac91f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 272.5
   },
   "right": {
     "id": "bc439059b61c938b",
@@ -143,18 +143,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4432acfc0d7d7e1c",
+  "active": "9014f72fb81ac91f",
   "lastOpenFiles": [
-    "算法与数据结构/index.md",
     "算法与数据结构/快速排序.md",
+    "assets/Pasted image 20240331213805.png",
+    "assets/Pasted image 20240331211739.png",
+    "assets/Pasted image 20240331195654.png",
+    "算法与数据结构/数据结构与算法.md",
     "index.md",
+    "assets/Pasted image 20240331190622.png",
+    "assets/Pasted image 20240323133532.png",
+    "assets/Pasted image 20240331185434.png",
+    "Excalidraw/Drawing 2024-03-31 17.48.13.excalidraw.md",
+    "Excalidraw",
+    "assets/快速排序.png",
+    "assets/快速排序 1.png",
+    "浏览器/浏览器工作原理.md",
+    "浏览器/index.md",
+    "软件工程/软件工程.md",
     "软件工程/webpack/Webpack.md",
     "软件工程/webpack/Plugin.md",
     "算法与数据结构/冒泡排序.md",
     "算法与数据结构/二分搜索.md",
     "算法与数据结构/递归.md",
     "性能优化/性能优化知识体系.md",
-    "软件工程/index.md",
     "软件工程/monorepos.md",
     "js/web-components/Web Component.md",
     "js/函数隐式调用.md",
@@ -167,30 +179,17 @@
     "算法与数据结构/数组.md",
     "算法与数据结构/归并算法.md",
     "算法与数据结构/链表.md",
-    "算法与数据结构/动态规划.md",
-    "算法与数据结构/递推.md",
-    "算法与数据结构/插入排序.md",
-    "算法与数据结构/选择排序.md",
-    "assets/Pasted image 20240323133532.png",
     "算法与数据结构",
     "assets",
     "Pasted image 20240321151755.png",
     "Pasted image 20240321155543.png",
     "Untitled.canvas",
-    "Pasted image 20240320225920.png",
-    "Pasted image 20240320231457.png",
-    "Pasted image 20240320230608.png",
-    "Pasted image 20240320132351.png",
-    "assets/Pasted image 20240320003918.png",
-    "assets/Pasted image 20240319164218.png",
-    "assets/Pasted image 20240319150330.png",
     "assets",
     "软件工程/webpack",
     "软件工程/babel",
     "工程化",
     "js/事件",
     "js/web-components",
-    "性能优化",
-    "js/事件"
+    "性能优化"
   ]
 }
