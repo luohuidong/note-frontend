@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a99aa4d474ce032b",
+        "id": "8dd4ba5d32a73de5",
         "type": "tabs",
         "children": [
           {
-            "id": "9014f72fb81ac91f",
+            "id": "2d039269c2eea882",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "new",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,14 +143,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9014f72fb81ac91f",
+  "active": "2d039269c2eea882",
   "lastOpenFiles": [
+    "index.md",
+    "算法与数据结构/二分搜索.md",
+    "算法与数据结构/数据结构与算法.md",
     "算法与数据结构/快速排序.md",
+    "assets/Pasted image 20240401222728.png",
+    "assets/Pasted image 20240401222409.png",
     "assets/Pasted image 20240331213805.png",
     "assets/Pasted image 20240331211739.png",
     "assets/Pasted image 20240331195654.png",
-    "算法与数据结构/数据结构与算法.md",
-    "index.md",
     "assets/Pasted image 20240331190622.png",
     "assets/Pasted image 20240323133532.png",
     "assets/Pasted image 20240331185434.png",
@@ -164,7 +167,6 @@
     "软件工程/webpack/Webpack.md",
     "软件工程/webpack/Plugin.md",
     "算法与数据结构/冒泡排序.md",
-    "算法与数据结构/二分搜索.md",
     "算法与数据结构/递归.md",
     "性能优化/性能优化知识体系.md",
     "软件工程/monorepos.md",
@@ -181,8 +183,6 @@
     "算法与数据结构/链表.md",
     "算法与数据结构",
     "assets",
-    "Pasted image 20240321151755.png",
-    "Pasted image 20240321155543.png",
     "Untitled.canvas",
     "assets",
     "软件工程/webpack",
