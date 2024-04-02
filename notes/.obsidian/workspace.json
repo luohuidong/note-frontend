@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8dd4ba5d32a73de5",
+        "id": "946118f856dfc5da",
         "type": "tabs",
         "children": [
           {
-            "id": "2d039269c2eea882",
+            "id": "c98e85a29bfc4ab1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -143,9 +143,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d039269c2eea882",
+  "active": "c98e85a29bfc4ab1",
   "lastOpenFiles": [
+    "软件工程/模块化.md",
+    "软件工程/工程化基础.md",
+    "软件工程/软件工程.md",
+    "软件工程/babel/Babel.md",
     "index.md",
+    "软件工程/monorepos.md",
     "算法与数据结构/二分搜索.md",
     "算法与数据结构/数据结构与算法.md",
     "算法与数据结构/快速排序.md",
@@ -163,24 +168,20 @@
     "assets/快速排序 1.png",
     "浏览器/浏览器工作原理.md",
     "浏览器/index.md",
-    "软件工程/软件工程.md",
     "软件工程/webpack/Webpack.md",
     "软件工程/webpack/Plugin.md",
     "算法与数据结构/冒泡排序.md",
     "算法与数据结构/递归.md",
     "性能优化/性能优化知识体系.md",
-    "软件工程/monorepos.md",
     "js/web-components/Web Component.md",
     "js/函数隐式调用.md",
     "js/闭包.md",
     "软件工程/构建 npm CLI 工具.md",
-    "软件工程/工程化基础.md",
     "软件工程/Semantic Versioning（语意化版本）.md",
     "js/this.md",
     "算法与数据结构/栈.md",
     "算法与数据结构/数组.md",
     "算法与数据结构/归并算法.md",
-    "算法与数据结构/链表.md",
     "算法与数据结构",
     "assets",
     "Untitled.canvas",
