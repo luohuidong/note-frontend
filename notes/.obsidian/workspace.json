@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77fe4c6293da88f0",
+            "id": "5e836ebc27fc2332",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "35a36e8cc06aa885",
+            "id": "f358668aaf670955",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44d9af811da1d7da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devops/acme.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "devops/acme.sh.md"
               }
             }
           },
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "devops/acme.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "devops/acme.sh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,23 +176,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77fe4c6293da88f0",
+  "active": "44d9af811da1d7da",
   "lastOpenFiles": [
+    "index.md",
+    "devops",
+    "fe/js/this.md",
+    "fe",
+    "devops/acme.sh.md",
+    "fe/node/Nest.md",
     "Rust/Rust-类型系统.md",
     "Rust/Rust.md",
-    "index.md",
     "Rust",
     "Rust",
-    "软件工程/webpack/Webpack.md",
-    "软件工程/软件工程.md",
-    "软件工程/webpack/Module Federation.md",
-    "软件工程/模块化.md",
-    "软件工程/工程化基础.md",
-    "软件工程/babel/Babel.md",
-    "软件工程/monorepos.md",
-    "算法与数据结构/二分搜索.md",
-    "算法与数据结构/数据结构与算法.md",
-    "算法与数据结构/快速排序.md",
+    "fe/软件工程/webpack/Webpack.md",
+    "fe/软件工程/软件工程.md",
+    "fe/软件工程/webpack/Module Federation.md",
+    "fe/软件工程/模块化.md",
+    "fe/软件工程/工程化基础.md",
+    "fe/软件工程/babel/Babel.md",
+    "fe/软件工程/monorepos.md",
+    "fe/算法与数据结构/二分搜索.md",
+    "fe/算法与数据结构/数据结构与算法.md",
+    "fe/算法与数据结构/快速排序.md",
     "assets/Pasted image 20240401222728.png",
     "assets/Pasted image 20240401222409.png",
     "assets/Pasted image 20240331213805.png",
@@ -192,24 +210,19 @@
     "Excalidraw",
     "assets/快速排序.png",
     "assets/快速排序 1.png",
-    "浏览器/浏览器工作原理.md",
-    "浏览器/index.md",
-    "软件工程/webpack/Plugin.md",
-    "算法与数据结构/冒泡排序.md",
-    "算法与数据结构/递归.md",
-    "性能优化/性能优化知识体系.md",
-    "js/web-components/Web Component.md",
-    "js/函数隐式调用.md",
-    "js/闭包.md",
-    "软件工程/构建 npm CLI 工具.md",
-    "软件工程/Semantic Versioning（语意化版本）.md",
-    "算法与数据结构",
+    "fe/浏览器/浏览器工作原理.md",
+    "fe/浏览器/index.md",
+    "fe/软件工程/webpack/Plugin.md",
+    "fe/算法与数据结构/冒泡排序.md",
+    "fe/算法与数据结构/递归.md",
+    "fe/性能优化/性能优化知识体系.md",
+    "fe/js/web-components/Web Component.md",
+    "fe/js/函数隐式调用.md",
+    "fe/算法与数据结构",
     "assets",
     "Untitled.canvas",
     "assets",
-    "软件工程/webpack",
-    "软件工程/babel",
-    "工程化",
-    "js/事件"
+    "fe/软件工程/webpack",
+    "fe/软件工程/babel"
   ]
 }
