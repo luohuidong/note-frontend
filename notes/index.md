@@ -3,7 +3,7 @@ title: Frontend Notes
 ---
 ## CS
 
-- [[数据结构与算法]]
+- [[cs-data-structures-and-algorithms/index|数据结构与算法]]
 
 ## FE
 
@@ -17,6 +17,7 @@ title: Frontend Notes
 - [[闭包]]
 - [[JS 事件]]
 - [[Web Component]]
+- [[Form 表单]]
 
 ### 工程化
 
@@ -28,9 +29,10 @@ title: Frontend Notes
 
 
 ## BE
+
 ### MySQL
 
-- [[事务与并发控制]]
+- [[MySQL - 事务与并发控制]]
 
 ## 其他
 
