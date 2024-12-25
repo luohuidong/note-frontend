@@ -9,7 +9,7 @@ Gird 是二维布局系统，提供了很多功能来简化复杂布局的创建
 }
 ```
 
-如果想要弹性 grids 可以使用 `fr` 单位，`fr` 单位按比例分配可用空间：
+如果想要弹性 grids 可以使用 `fr` 单位。`fr` 单位按比例分配可用空间，例如 `2fr` 分配的空间是 `1fr` 的两倍：
 
 ```css
 .container {
@@ -18,4 +18,29 @@ Gird 是二维布局系统，提供了很多功能来简化复杂布局的创建
 }
 ```
 
-`2fr` 分配的空间是 `1fr` 的两倍。
+将 column 和 row 理解为 track，可以在 track 之间添加 gap：
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+```
+
+另外我们还可以使用 `column-gap` 和 `row-gap` 来分别设置 column 与行之间的间距，`gap` 则是这两者的缩写。
+
+如果存在多个 column 都是相同宽度的情况，可以使用 `repeat()` 方法来简化定义：
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+```
+
+## 显示 grid 与隐式 grid
+
+使用e
+
